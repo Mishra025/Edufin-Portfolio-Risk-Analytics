@@ -2,35 +2,7 @@
 
 EduFin Portfolio Intelligence is a Streamlit analytics interface built from three EduFin notebooks and the `loans.csv` dataset. It converts the notebook work into an interactive dashboard for portfolio health, customer and segment risk, cohort analysis, loan exploration, and recovery/loss scenario planning.
 
-## Repository Recommendation
-
-Use **one GitHub repository** for this project.
-
-Reason: the three notebooks are connected parts of one EduFin risk-analysis case study. Day 1 covers portfolio health, Day 2 covers customer/segment risk, and Day 3 covers timeline/cohort risk. Keeping them in one repo makes the project easier to explain, run, review, and deploy as a single portfolio application.
-
-Suggested repo name:
-
-```text
-edufin-portfolio-intelligence
 ```
-
-Suggested structure:
-
-```text
-edufin-portfolio-intelligence/
-  app.py
-  requirements.txt
-  README.md
-  data/
-    loans.csv
-  notebooks/
-    ashishmishra_SAP174B9_PH_Day1.ipynb
-    ashishmishra_SAP174B9_Day2.ipynb
-    Ashish_Mishra_SAP174B9_Day3.ipynb
-```
-
-Separate repositories would only make sense if each notebook became a completely independent product with its own data, deployment, and documentation. For this case, one repo is the stronger choice.
-
 ## Project Objective
 
 The project analyzes an education-finance loan portfolio and helps decision makers answer:
