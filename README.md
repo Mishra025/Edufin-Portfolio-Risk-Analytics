@@ -2,8 +2,7 @@
 
 EduFin Portfolio Intelligence is a Streamlit analytics interface built from three EduFin notebooks and the `loans.csv` dataset. It converts the notebook work into an interactive dashboard for portfolio health, customer and segment risk, cohort analysis, loan exploration, and recovery/loss scenario planning.
 
-```
-## Project Objective
+##Project Objective
 
 The project analyzes an education-finance loan portfolio and helps decision makers answer:
 
